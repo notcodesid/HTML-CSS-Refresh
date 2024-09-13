@@ -10,46 +10,39 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #f4f4f4;
-  /* padding-top:600px; */
 }
+/* Base class for common properties */
+
+.petel{
+    width: 120px;
+    height: 300px;
+    border-radius: 95% 0 95% 0;
+    opacity: 0.70;
+    position: relative;
+}
+/* Unique styles for each petal */
 
 .petal1 {
-  width: 120px;
-  height: 300px;
-  background: linear-gradient(to bottom right, rgba(0, 0, 255, 0.7), rgba(255, 0, 0, 0.7));
+  background:#fc4c59;
   border-radius: 95% 0 95% 0;
   transform: rotate(70deg);
-  position: relative;
-  opacity: 0.9;
 }
 .petal2 {
-    left: -110px;
-  width: 120px;
-  height: 300px;
-  position:absoulte;
-  background: linear-gradient(to bottom right, rgba(0, 0, 255, 0.7), rgba(255, 0, 0, 0.7));
-  border-radius: 100% 0 100% 0;
+left: -110px;
+  background: linear-gradient(to top , rgba(0, 0, 255, 0.7), rgba(220,150,240,255)  );
   transform: rotate(-11deg);
-  position: relative;
-  opacity: 0.9;
-  position: relative;
 }
 .petal3 {
     left: -240px;
-  width: 120px;
-  height: 300px;
-  background: linear-gradient(to bottom right, rgba(0, 0, 255, 0.7), rgba(255, 0, 0, 0.7));
-  border-radius: 95% 0 95% 0;
-  transform: rotate(-60deg);
-  position: relative;}
+  background: #fdc656;
+  transform: rotate(30deg);
+  opacity: 0.70;
+}
+
 
 .petal4 {
     left: -350px;
-  width: 120px;
-  height: 300px;
-  background: linear-gradient(to bottom right, rgba(0, 0, 255, 0.7), rgba(255, 0, 0, 0.7));
-  border-radius: 95% 0 95% 0;
-  transform: rotate(30deg);
-  position: relative;
-  opacity: 0.9;
+  background: linear-gradient(to bottom right, #3b82f6, #5338c6  , #8d3775, #a25471  );;
+  opacity: 0.70;
+  transform: rotate(-60deg)
 }
