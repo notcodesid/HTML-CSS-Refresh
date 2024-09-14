@@ -5,11 +5,15 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   background-color: #f4f4f4;
+}
+.task1{
+  position: absolute;
+  top: 10px;
+  left: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 /* Base class for common properties */
 
